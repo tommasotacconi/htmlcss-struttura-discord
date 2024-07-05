@@ -14,10 +14,17 @@ nav {
     line-height: 30px;
     background-color: aquamarine;
     padding: var(--nav-pd);
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 span {
     margin: 0 5px;
+}
+
+figure {
+    width: 40%;
+    background-color: olivedrab;
 }
 
 /* Utilities */
@@ -41,9 +48,30 @@ span {
 
 .introduction-card {
     background-color: blueviolet;
-    min-height: var(--mh-xl);
 }
 
+.background-argument {
+    min-height: var(--mh-xxl);
+    padding: var(--bg-pd-lg);
+}
 
+.bd-seagreen {
+    background-color: lightseagreen;
+}
 
+.bd-azure {
+    background-color: azure;
+}
 
+.bd-mturquoise {
+    background-color: mediumturquoise;
+}
+
+.text-argument {
+    width: 60%;
+    background-color: yellowgreen;
+}
+
+.higher {
+    min-height: var(--mh-xxxl);
+}

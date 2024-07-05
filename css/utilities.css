@@ -7,6 +7,7 @@
     --mh-lg: 250px;
     --mh-xl: 300px;
     --mh-xxl: 400px;
+    --mh-xxxl: 700px;
 }
 
 .d-flex {
@@ -16,11 +17,13 @@
 .container-lg {
     max-width: 850px;
     margin: 0 auto;
+    min-height: var(--mh-xl)
 }
 
 .container-xl {
     max-width: 1100px;
     margin: 0 auto;
+    min-height: var(--mh-xxl)
 }
 
 .dashed-border{

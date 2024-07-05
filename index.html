@@ -22,7 +22,7 @@
             <!-- Sfondo per navbar -->
             <div class="background-nav">
                 <!-- Barra di navigazione principale con logo, link e login -->
-                <nav class="container-xl d-flex">
+                <nav class="d-flex">
                     <div class="logo nav-side-content dashed-border">logo</div>
                     <div class="important-links nav-principal-content dashed-border row">
                         <span>Link</span>
@@ -37,7 +37,7 @@
             <!-- Sfondo per card di presentazione -->
             <div class="background-intro">
                 <!-- Card di presentazione -->
-                <div class="introduction-card container-lg"></div>
+                <div class="introduction-card container-lg dashed-border"></div>
             </div>
 
         </header>
@@ -46,22 +46,32 @@
         <main>
             
             <!-- Suddivisione per argomenti -->
-            <div class="thematic-channels">
-                <img src="" alt="">
-                <div class="argument"></div>
+
+            <!-- Con ogni background-argument si imposta uno uno sfondo
+             che contiene una card a proposito di un singolo argomento -->
+            <div class="background-argument bd-seagreen"> 
+                <div class="argument-thematic-channels container-xl d-flex">
+                    <figure class="dashed-border"><img src="" alt=""></figure>
+                    <div class="text-argument dashed-border"></div>
+                </div>
             </div>
-            <div class="voice-channel">
-                <img src="" alt="">
-                <div class="argument"></div>
+            <div class="background-argument bd-azure">
+                <div class="argument-voice-channels container-xl d-flex">
+                    <div class="text-argument dashed-border"></div>
+                    <figure class="dashed-border"><img src="" alt=""></figure>
+                </div>
             </div>
-            <div class="community">
-                <img src="" alt="">
-                <div class="argument"></div>
+            <div class="background-argument bd-seagreen">
+                <div class="argument-comunity container-xl d-flex">
+                    <figure class="dashed-border"><img src="" alt=""></figure>
+                    <div class="text-argument dashed-border"></div>
+                </div>
             </div>
-            <div class="technology">
-                <img src="" alt="">
-                <div class="argument"></div>
+            <div class="background-argument higher bd-azure">
+                <div class="argument-technology container-xl higher bd-mturquoise">
+                </div>
             </div>
+
          
         </main>
 
