@@ -7,16 +7,13 @@
 
 /* Generics */
 header {
-    height: 70px;
-    background-color: slateblue;
-    padding: 15px 0;
+    min-height: var(--mh-xxl);
 }
 
 nav {
-    height: 40px;
     line-height: 30px;
     background-color: aquamarine;
-    padding: var(--pd-space);
+    padding: var(--nav-pd);
 }
 
 span {
@@ -24,6 +21,11 @@ span {
 }
 
 /* Utilities */
+.background-nav {
+    padding: var(--bg-pd-sm);
+    background-color: slateblue;
+}
+
 .logo {
     text-align: left;
 }
@@ -31,4 +33,15 @@ span {
 .login {
     text-align: right;
 }
+
+.background-intro {
+    background-color: cornflowerblue;
+    padding: var(--bg-pd-lg);
+}
+
+.introduction-card {
+    background-color: blueviolet;
+    min-height: var(--mh-xl);
+}
+
 

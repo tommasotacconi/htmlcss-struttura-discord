@@ -1,18 +1,26 @@
 /* Utilities */
 :root {
-    --pd-space: 5px;
+    --nav-pd: 5px;
+    --bg-pd-sm: 15px;
+    --bg-pd-lg: 40px;
+    --mh-sm: 50px;
+    --mh-lg: 250px;
+    --mh-xl: 300px;
+    --mh-xxl: 400px;
 }
+
 .d-flex {
     display: flex;
 }
 
-.min-ht {
-    min-height: 300px;
+.container-lg {
+    max-width: 850px;
+    margin: 0 auto;
 }
 
-.container {
-max-width: 1100px;
-margin: 0 auto
+.container-xl {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .dashed-border{
