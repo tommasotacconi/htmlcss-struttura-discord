@@ -6,6 +6,29 @@
 }
 
 /* Generics */
+header {
+    height: 70px;
+    background-color: slateblue;
+    padding: 15px 0;
+}
 
+nav {
+    height: 40px;
+    line-height: 30px;
+    background-color: aquamarine;
+    padding: var(--pd-space);
+}
+
+span {
+    margin: 0 5px;
+}
 
 /* Utilities */
+.logo {
+    text-align: left;
+}
+
+.login {
+    text-align: right;
+}
+

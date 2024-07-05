@@ -1,5 +1,7 @@
 /* Utilities */
-
+:root {
+    --pd-space: 5px;
+}
 .d-flex {
     display: flex;
 }
@@ -9,13 +11,26 @@
 }
 
 .container {
-max-width: 1400px;
+max-width: 1100px;
 margin: 0 auto
+}
+
+.dashed-border{
+    border: 1px dashed orange
+}
+
+.nav-principal-content {
+    width: 60%;
+}
+
+.nav-side-content{
+    width: 20%;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: var(--space);
+    justify-content: center;
+    align-items: center;
+    /* gap: var(--space); */
 }
