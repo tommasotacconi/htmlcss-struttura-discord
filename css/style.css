@@ -110,6 +110,7 @@ figure {
 .background-register-zone {
     height: 70px;
     background: green;
+    padding: 5px 40px 0;
 }
 
 .modified-container-xl {
